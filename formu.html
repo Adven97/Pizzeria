@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zamów - Pizzeria Mamma Mia!</title>
+<meta name="description" content="Zamów - Pizzeria Mamma Mia!"/>
+<meta name="keywords" content="pizza, pasta, italia, mammamia, pizzeria">
+<link rel="stylesheet" href="log.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Crete+Round&subset=latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<div class="pasek">
+<div class="button1"><a href="restauracja.html" class="tilelink2"><i>STRONA GŁÓWNA</i></a></div>
+<div class="button3"><a href="menu.html" class="tilelink2"><i>MENU</i></a></div>
+<div class="button3"><a href="formu.html" class="tilelink2"><i>ZAMÓW</i></a></div>
+<div class="button3"><a href="kont.html" class="tilelink2"><i>KONTAKT</i></a></div>
+<div class="button3"><a href="galer.html" class="tilelink2"><i>GALERIA</i></a></div>
+
+<div class="button2">
+<ol>
+    <li><a href="#">MENU</a>
+      <ul>
+        <li><a href="restauracja.html" >STRONA GŁÓWNA</a></li>
+	<li><a href="menu.html" >MENU</a></li>
+	<li><a href="formu.html" >ZAMÓW</a></li>
+	<li><a href="kont.html" >KONTAKT</a></li>
+	<li><a href="galer.html" >GALERIA</a></li>
+      </ul>
+    </li>
+	</ol></div>
+</div>
+
+<div id="panel">
+<form action = 'XD.php' method='post'>
+<div id="pizza"><label for="username">Podaj co chcesz zamówić:</label>
+<select name="piz">
+		<option>Margharita</option>
+		<option>Capriciosa</option>
+		<option>Cacciatore</option>
+		<option>Quatro Formaggi</option>
+		<option>Siciliana</option>
+		<option>Peperone</option>
+		<option>Vegetariana</option>
+		<option>Pescatore</option>
+
+		<option>Marinara</option>
+		<option>Funghi</option>
+		<option>Romana</option>
+		<option>Quatro Stragioni</option>
+		<option>Tropicana</option>
+		<option>Paesana</option>
+		<option>Strong</option>
+		<option>Bussola</option>
+
+		<option>Torina</option>
+		<option>Labella</option>
+		<option>Venezia</option>
+		<option>Diavolo</option>
+		<option>Santa Lucia</option>
+		<option>Autunno</option>
+		<option>Carlo</option>
+		<option>Frutti di Mare</option>
+
+		<option>Mexicana</option>
+		<option>Umberto</option>
+		<option>Hawajska</option>
+		<option>Bolognese</option>
+		<option>Orient</option>
+		<option>Farmerska</option>
+		<option>Livigno</option>
+		<option>Italia</option>
+
+	</select></div>
+
+<label for="password">Podaj imię i nazwisko:</label>
+<input type="text" id="password" name="imie" />
+<label for="password">Podaj numer telefonu:</label>
+<input type="text" id="password1" name="tel" maxlength="9"/>
+<label for="username">Podaj adres wysyłki:</label>
+<input type="text" id="username" name="adres"/>
+
+<div id="lower">
+<input type="submit" name="login" value="Zamów">
+</div>
+
+</form>
+</div>
+</body>
+</html>
